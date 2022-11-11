@@ -1,4 +1,5 @@
 .button {
+  margin: 40px auto 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,4 +12,11 @@
   outline: inherit;
   background-color: var(--primary);
   border-radius: var(--radius-s);
+  &:hover {
+    background: var(--primary-hover);
+    transition: 0.3s;
+  }
+  &:active {
+    background: var(--primary-active);
+  }
 }
